@@ -10,4 +10,15 @@
     <dimen name="btnAddPaddingHorizontal">60dp</dimen>
     <dimen name="btnAddPaddingVertical">8dp</dimen>
     <dimen name="btn_add_stoke_width">1dp</dimen>
+    <dimen name="dialog_title_margin_vertical">36dp</dimen>
+    <dimen name="dialog_title_textsize">18sp</dimen>
+    <dimen name="iv_row_drop_size">12dp</dimen>
+    <dimen name="tv_row_goal_padding_horizontal">22dp</dimen>
+    <dimen name="row_drop_padding">22dp</dimen>
+    <dimen name="btn_footer_margin_horizontal">60dp</dimen>
+    <dimen name="btn_footer_margin_vertical">128dp</dimen>
+    <dimen name="dialog_completed_padding">24dp</dimen>
+    <dimen name="btn_completed_margin_vertical">96dp</dimen>
+    <dimen name="btn_completed_drawable_padding">16dp</dimen>
+    <dimen name="btn_completed_textsize">24sp</dimen>
 </resources>

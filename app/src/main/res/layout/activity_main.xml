@@ -3,17 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.peliks.bucketdrops.ActivityMain">
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
 
-    <ImageView
-        android:id="@+id/ivBackground"
+    <com.peliks.bucketdrops.widget.BucketRecyclerView
+        android:id="@+id/rvDrops"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/toolbar" />
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:layout_below="@id/toolbar"
+        android:layout_height="match_parent" />
 
-    <include layout="@layout/empty_drops" />
+    <include android:id="@+id/empty_drops" layout="@layout/empty_drops" />
 </RelativeLayout>

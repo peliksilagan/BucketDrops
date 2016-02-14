@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BucketDrops</string>
     <string name="add_drop">Add a Drop</string>
+    <string name="hint_et_drop">What is it?</string>
+    <string name="add_it">Add It</string>
+    <string name="mark_completed">Mark Completed</string>
 </resources>

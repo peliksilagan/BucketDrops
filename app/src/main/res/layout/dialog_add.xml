@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/bg_dialog"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_title_margin_vertical"
+        android:layout_marginTop="@dimen/dialog_title_margin_vertical"
+        android:text="@string/add_drop"
+        android:textSize="@dimen/dialog_title_textsize" />
+
+    <ImageButton
+        android:id="@+id/ibCloseAddDialog"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignBottom="@id/tvTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tvTitle"
+        android:background="@null"
+        android:src="@drawable/ic_close" />
+
+    <EditText
+        android:id="@+id/etDrop"
+        android:inputType="textVisiblePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:hint="@string/hint_et_drop"
+        android:padding="16dp" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDrop"/>
+
+    <Button
+        android:id="@+id/btnAddIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:text="@string/add_it"
+        android:textAllCaps="false" />
+
+</RelativeLayout>
